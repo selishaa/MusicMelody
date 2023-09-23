@@ -20,9 +20,7 @@ const renderGift = async () => {
     document.title = `Melody- ${gift.title}`
   }
   else {
-    const message = document.createElement('h2')
-    message.textContent = 'No Gifts Available 😞'
-    giftContent.appendChild(message)   
+     
   }
 }
 

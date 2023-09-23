@@ -10,12 +10,12 @@ const headerLogo = document.createElement('img')
 headerLogo.src = '/logo.png'
 
 const headerTitle = document.createElement('h1')
-headerTitle.textContent = 'MusicMelody'
+headerTitle.textContent = 'MelodyMuse'
 
 headerLeft.appendChild(headerLogo)
 headerLeft.appendChild(headerTitle)
 
-const headerButton = document.createElement('Home')
+const headerButton = document.createElement('button')
 headerButton.textContent = 'Home'
     
 headerButton.addEventListener('click', (event) => {

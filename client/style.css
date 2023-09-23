@@ -50,7 +50,7 @@ header {
 .header-left h1 {
   font-size: 45px;
   margin-left: 10px;
-  color: white; /* Header text color */
+  color: white; 
 }
 
 .header-right {
@@ -59,7 +59,7 @@ header {
 }
 
 .header-right button {
-  background-color: var(--primary-color); /* Change the button background color here */
+  background-color: #3e121b; 
   border: none;
   border-radius: 16px;
   color: white;
@@ -68,7 +68,7 @@ header {
   text-transform: uppercase;
   width: 80px;
   transition: background-color 0.3s ease-in-out;
-  position: relative; /* Required for pseudo-elements */
+  position: relative; 
 }
 
 .header-right button:hover {

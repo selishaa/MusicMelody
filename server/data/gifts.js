@@ -60,7 +60,7 @@ const musicData = [
     year: 2008,
     genre: 'Country/Pop',
     url: 'https://open.spotify.com/track/1dGr1c8CrMLDpV6mPbImSI',
-    cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW109KEGctl34wjKQndjlLZFJnxMXEwo8dlQ&usqp=CAU', // Replace with the actual image URL
+    cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW109KEGctl34wjKQndjlLZFJnxMXEwo8dlQ&usqp=CAU', 
   },
   {
     id: 8,
