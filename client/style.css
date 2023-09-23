@@ -1,0 +1,220 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Root Styles CSS */
+:root {
+  --primary-color: rgb(12, 18, 127);
+  --secondary-color: rgb(147, 119, 134);
+  --font-family: 'Avenir', 'Helvetica', sans-serif;
+}
+
+body {
+  background-color: #662549; /* Dark background color */
+  font-family: var(--font-family);
+  color: white; /* Text color */
+}
+
+/* Header CSS */
+header {
+  background-image: url('background.jpg'); /* Set your background image here */
+  background-size: cover;
+  background-position: center;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.5); /* Change the background color here */
+  padding: 20px; /* Adjust padding as needed */
+  border-radius: 8px; /* Add a border-radius if desired */
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-left img {
+  height: 80px;
+}
+
+.header-left h1 {
+  font-size: 45px;
+  margin-left: 10px;
+  color: white; /* Header text color */
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-right button {
+  background-color: var(--primary-color); /* Change the button background color here */
+  border: none;
+  border-radius: 16px;
+  color: white;
+  cursor: pointer;
+  padding: 15px 16px;
+  text-transform: uppercase;
+  width: 80px;
+  transition: background-color 0.3s ease-in-out;
+  position: relative; /* Required for pseudo-elements */
+}
+
+.header-right button:hover {
+  background-color: var(--secondary-color);
+}
+
+/* Home page CSS */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.card {
+  width: 300px;
+  height: 400px;
+  background: #cc435e; /* Card background color */
+  border: 3px solid var(--primary-color);
+  border-radius: 0.3rem;
+  box-shadow: 12px 12px 2px 1px rgba(233, 216, 240, 0.057);
+  margin: 0 20px 60px 0;
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.top-container {
+  height: 250px;
+}
+
+.bottom-container {
+  margin: 30px 10px 0;
+}
+
+.bottom-container h3 {
+  margin: 10px 0 6px;
+  font-size: 1.2rem;
+  color: white; 
+}
+
+.bottom-container p {
+  margin: 2px 0;
+}
+
+.bottom-container a {
+  color: var(--secondary-color);
+  text-decoration:wavy;
+}
+
+/* 404 Page CSS */
+.fof-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.fof {
+  color: rgb(26, 25, 25);
+}
+
+.fof h1 {
+  font-size: 50px;
+  display: inline-block;
+  padding-right: 12px;
+  animation: type .6s alternate infinite;
+}
+
+@keyframes type {
+  from {box-shadow: inset -3px 0px 0px var(--secondary-color);}
+  to {box-shadow: inset -3px 0px 0px transparent;}
+}
+
+
+/* Gift Page CSS */
+.gift-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh; /* Adjust as needed to center content vertically */
+  background-color: #c34fa6; /* Change to your desired background color */
+  padding: 30px; /* Adjust padding as needed */
+  border-radius: 20px; /* Add border-radius if desired */
+  color: white; /* Text color for gift details */
+  max-width: 800px; /* Adjust the max-width as per your preference */
+  margin: 70px auto 0; /* Center the container horizontally and add margin at the top */
+}
+
+
+
+
+.image-container {
+  flex: 1;
+  max-width: 80%;
+  padding: 10px;
+}
+
+.image-container img {
+  max-width: 60%;
+  height: auto;
+  display: block;
+  border-radius: 20px; /* Add border-radius to the image if desired */
+}
+
+.gift-details {
+  flex: 1;
+  max-width: 90%;
+  padding: 20px;
+}
+
+.gift-details h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.gift-details p {
+  margin: 5px 0;
+}
+
+.gift-details a {
+  color: var(--secondary-color); /* Use your link color */
+  text-decoration: none;
+}
+
+.gift-details a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+

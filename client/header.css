@@ -1,0 +1,26 @@
+/* Header Styles */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #3f2002 0%, #b703ae 100%); /* Gradient Background */
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .header-left img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  
+  
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+  
+ 
+  
