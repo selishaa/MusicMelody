@@ -39,7 +39,7 @@ GIF created with LICEcap  GIF tool here
 
 ## Notes
 
-Describe any challenges encountered while building the app or any additional context you'd like to add.
+I had few errors while connecting the database as even after completing every step my website was not loading anything but after debugging few mistakes it worked.
 
 ## License
 
