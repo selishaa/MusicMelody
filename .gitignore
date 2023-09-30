@@ -25,3 +25,10 @@ dist-ssr
 
 # Deployed assets
 server/public
+
+
+
+
+
+.env
+
